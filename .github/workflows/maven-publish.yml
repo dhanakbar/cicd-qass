@@ -10,7 +10,7 @@ on:
     types: [created]
 
 jobs:
-  build:
+  deploy-package:
 
     runs-on: ubuntu-latest
     permissions:
