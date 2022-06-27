@@ -1,13 +1,10 @@
-import src.main.java.Counter;
+import src.main.java.Fibonacci;
 
-public class Driver {
+class Driver {
 
 	public static void main(String[] args) {
-		
-		Counter counter = new Counter();
-		
-		System.out.println("Current count:" + counter.getCount());
-		
+		Fibonacci fibo = new Fibonacci();
+    System.out.println(fibo.fibonacciCounter(9));
 	}
 
 }
